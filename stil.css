@@ -1,0 +1,96 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f6f0fa; /* svijetla lilac pozadina */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Naslovi */
+h1 {
+    color: #8aaae5; /* pastelno plava */
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+h2, h3, h4 {
+    color: #c18cd4; /* nježno ljubičasta */
+    margin-top: 30px;
+}
+
+/* Paragrafi i tekst */
+p {
+    line-height: 1.6;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+mark {
+    background-color: #ffe0f0; /* pastelno ružičasta */
+    padding: 2px 4px;
+}
+
+i {
+    color: #a178b6; /* tamnija lilac */
+}
+
+/* Citat i blok citat */
+q {
+    font-style: italic;
+    color: #ba6d92; /* ružičasto-ljubičasta */
+}
+
+blockquote {
+    background-color: #f9e8ff;
+    border-left: 5px solid #d9a7eb;
+    padding: 10px 15px;
+    margin: 20px 0;
+    font-style: italic;
+    color: #5c4a62;
+}
+
+/* Navigacija i linkovi */
+nav {
+    background-color: #e4e9fb;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 20px 0;
+}
+
+nav p {
+    font-weight: bold;
+    color: #4b6cb7;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 5px 0;
+}
+
+nav a {
+    color: #5e81ac;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #7baedc;
+}
+
+/* Liste */
+ul, ol {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+img {
+	width: 300px;
+}
